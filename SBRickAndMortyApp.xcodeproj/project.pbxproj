@@ -19,6 +19,7 @@
 		F1525E822BDA8EB6000B871B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525E812BDA8EB6000B871B /* CharacterViewModel.swift */; };
 		F1525E882BDA8F7D000B871B /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1525E872BDA8F7D000B871B /* Combine.framework */; };
 		F1525E8A2BDA8F8E000B871B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1525E892BDA8F8E000B871B /* SwiftUI.framework */; };
+		F1525EA82BDA9E0F000B871B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525EA72BDA9E0F000B871B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F1525E812BDA8EB6000B871B /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		F1525E872BDA8F7D000B871B /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
 		F1525E892BDA8F8E000B871B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F1525EA72BDA9E0F000B871B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F1525E612BDA7C08000B871B /* Modules */,
+				F1525E9D2BDA9D76000B871B /* Common */,
 				F148C35F2BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift */,
 				F148C3612BDA6E2500C0BD5D /* ContentView.swift */,
 				F148C3632BDA6E2700C0BD5D /* Assets.xcassets */,
@@ -246,6 +249,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F1525E9D2BDA9D76000B871B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1525E9E2BDA9DB3000B871B /* Extensions */,
+				F1525EA72BDA9E0F000B871B /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F1525E9E2BDA9DB3000B871B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,6 +398,7 @@
 				F148C3622BDA6E2500C0BD5D /* ContentView.swift in Sources */,
 				F1525E7D2BDA8C7B000B871B /* CharacterView.swift in Sources */,
 				F148C3602BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift in Sources */,
+				F1525EA82BDA9E0F000B871B /* Constants.swift in Sources */,
 				F1525E822BDA8EB6000B871B /* CharacterViewModel.swift in Sources */,
 				F1525E722BDA7EEC000B871B /* EpisodeModel.swift in Sources */,
 			);
