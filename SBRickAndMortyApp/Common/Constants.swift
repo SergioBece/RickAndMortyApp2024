@@ -11,6 +11,9 @@ public struct Constants {
     
     public struct Literals {
         static let charactersTitle = "Personajes"
+        static let originLabel = "Origen"
+        static let locationLabel = "Última localización conocida"
+        static let seenLabel = "Visto por primera vez"
     }
     
     public struct SystemImage {

@@ -20,6 +20,10 @@
 		F1525E882BDA8F7D000B871B /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1525E872BDA8F7D000B871B /* Combine.framework */; };
 		F1525E8A2BDA8F8E000B871B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1525E892BDA8F8E000B871B /* SwiftUI.framework */; };
 		F1525EA82BDA9E0F000B871B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525EA72BDA9E0F000B871B /* Constants.swift */; };
+		F168414C2BDAA2D100F326FF /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168414B2BDAA2D100F326FF /* EpisodesView.swift */; };
+		F16841522BDAA33200F326FF /* MockUpCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16841512BDAA33200F326FF /* MockUpCharacter.swift */; };
+		F16841582BDAA3EE00F326FF /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16841572BDAA3EE00F326FF /* TitleText.swift */; };
+		F16841602BDAA3FE00F326FF /* CharacterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168415F2BDAA3FE00F326FF /* CharacterImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		F1525E872BDA8F7D000B871B /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
 		F1525E892BDA8F8E000B871B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		F1525EA72BDA9E0F000B871B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F168414B2BDAA2D100F326FF /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
+		F16841512BDAA33200F326FF /* MockUpCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUpCharacter.swift; sourceTree = "<group>"; };
+		F16841572BDAA3EE00F326FF /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		F168415F2BDAA3FE00F326FF /* CharacterImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +236,7 @@
 		F1525E6F2BDA7EBC000B871B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F168414B2BDAA2D100F326FF /* EpisodesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +261,8 @@
 		F1525E9D2BDA9D76000B871B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F16841562BDAA3D700F326FF /* Modifiers */,
+				F16841502BDAA30E00F326FF /* Mockups */,
 				F1525E9E2BDA9DB3000B871B /* Extensions */,
 				F1525EA72BDA9E0F000B871B /* Constants.swift */,
 			);
@@ -263,6 +274,23 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F16841502BDAA30E00F326FF /* Mockups */ = {
+			isa = PBXGroup;
+			children = (
+				F16841512BDAA33200F326FF /* MockUpCharacter.swift */,
+			);
+			path = Mockups;
+			sourceTree = "<group>";
+		};
+		F16841562BDAA3D700F326FF /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				F16841572BDAA3EE00F326FF /* TitleText.swift */,
+				F168415F2BDAA3FE00F326FF /* CharacterImage.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,13 +422,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16841522BDAA33200F326FF /* MockUpCharacter.swift in Sources */,
 				F1525E6A2BDA7E1D000B871B /* CharacterModel.swift in Sources */,
 				F148C3622BDA6E2500C0BD5D /* ContentView.swift in Sources */,
 				F1525E7D2BDA8C7B000B871B /* CharacterView.swift in Sources */,
+				F16841602BDAA3FE00F326FF /* CharacterImage.swift in Sources */,
 				F148C3602BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift in Sources */,
+				F168414C2BDAA2D100F326FF /* EpisodesView.swift in Sources */,
 				F1525EA82BDA9E0F000B871B /* Constants.swift in Sources */,
 				F1525E822BDA8EB6000B871B /* CharacterViewModel.swift in Sources */,
 				F1525E722BDA7EEC000B871B /* EpisodeModel.swift in Sources */,
+				F16841582BDAA3EE00F326FF /* TitleText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
