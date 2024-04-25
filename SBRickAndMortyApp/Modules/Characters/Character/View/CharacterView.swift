@@ -30,13 +30,13 @@ struct CharacterView: View {
                 //TODO: Implement Task for get Characters
             }
             //TODO: Navigate to DetailView
-            .navigationTitle("Personajes")
+            .navigationTitle(Constants.Literals.charactersTitle)
             .toolbar {
                 ToolbarItemGroup(placement: .primaryAction) {
                     Button(action: {
                         isViewPresented = true
                     }, label: {
-                        Image(systemName: "gear")
+                        Image(systemName: Constants.SystemImage.settingsButton)
                     })
                 }
             }
