@@ -14,10 +14,12 @@ public struct Constants {
         static let originLabel = "Origen"
         static let locationLabel = "Última localización conocida"
         static let seenLabel = "Visto por primera vez"
+        static let charactersTab = "Personajes"
     }
     
     public struct SystemImage {
         static let settingsButton = "gear"
+        static let charactersTab = "person.2"
     }
     
 }

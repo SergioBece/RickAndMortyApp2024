@@ -13,7 +13,7 @@ enum CharacterStatus: String {
     case unknown = "Unknown"
 }
 
-struct EpisodesView: View {
+struct DetailView: View {
     var characterSelected: CharacterWithEpisode
     
     var body: some View {
@@ -60,8 +60,8 @@ struct EpisodesView: View {
     }
 }
 
-struct EpisodesView_Previews: PreviewProvider {
+struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        EpisodesView(characterSelected: MockUpCharacter.charactersMockUp)
+        DetailView(characterSelected: MockUpCharacter.charactersMockUp)
     }
 }
