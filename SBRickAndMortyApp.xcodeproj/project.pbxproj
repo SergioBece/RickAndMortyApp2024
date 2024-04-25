@@ -15,6 +15,10 @@
 		F148C37D2BDA6E2800C0BD5D /* SBRickAndMortyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148C37C2BDA6E2800C0BD5D /* SBRickAndMortyAppUITests.swift */; };
 		F1525E6A2BDA7E1D000B871B /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525E692BDA7E1D000B871B /* CharacterModel.swift */; };
 		F1525E722BDA7EEC000B871B /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525E712BDA7EEC000B871B /* EpisodeModel.swift */; };
+		F1525E7D2BDA8C7B000B871B /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525E7C2BDA8C7B000B871B /* CharacterView.swift */; };
+		F1525E822BDA8EB6000B871B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1525E812BDA8EB6000B871B /* CharacterViewModel.swift */; };
+		F1525E882BDA8F7D000B871B /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1525E872BDA8F7D000B871B /* Combine.framework */; };
+		F1525E8A2BDA8F8E000B871B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1525E892BDA8F8E000B871B /* SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F148C37E2BDA6E2800C0BD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1525E692BDA7E1D000B871B /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		F1525E712BDA7EEC000B871B /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		F1525E7C2BDA8C7B000B871B /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		F1525E812BDA8EB6000B871B /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		F1525E872BDA8F7D000B871B /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
+		F1525E892BDA8F8E000B871B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1525E8A2BDA8F8E000B871B /* SwiftUI.framework in Frameworks */,
+				F1525E882BDA8F7D000B871B /* Combine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +93,7 @@
 				F148C3702BDA6E2800C0BD5D /* SBRickAndMortyAppTests */,
 				F148C37B2BDA6E2800C0BD5D /* SBRickAndMortyAppUITests */,
 				F148C35D2BDA6E2500C0BD5D /* Products */,
+				F1525E862BDA8F7D000B871B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +202,7 @@
 		F1525E672BDA7DA0000B871B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F1525E7C2BDA8C7B000B871B /* CharacterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +210,7 @@
 		F1525E682BDA7DA8000B871B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F1525E812BDA8EB6000B871B /* CharacterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -222,6 +235,15 @@
 				F1525E712BDA7EEC000B871B /* EpisodeModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F1525E862BDA8F7D000B871B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1525E892BDA8F8E000B871B /* SwiftUI.framework */,
+				F1525E872BDA8F7D000B871B /* Combine.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,7 +377,9 @@
 			files = (
 				F1525E6A2BDA7E1D000B871B /* CharacterModel.swift in Sources */,
 				F148C3622BDA6E2500C0BD5D /* ContentView.swift in Sources */,
+				F1525E7D2BDA8C7B000B871B /* CharacterView.swift in Sources */,
 				F148C3602BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift in Sources */,
+				F1525E822BDA8EB6000B871B /* CharacterViewModel.swift in Sources */,
 				F1525E722BDA7EEC000B871B /* EpisodeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
