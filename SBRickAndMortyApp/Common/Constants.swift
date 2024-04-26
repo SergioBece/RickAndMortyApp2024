@@ -9,6 +9,20 @@ import Foundation
 
 public struct Constants {
     
+    struct BaseURL {
+        static let url = "https://rickandmortyapi.com/api/"
+        
+    }
+    
+    struct EndPoint {
+        static let characters = "character?page="
+        static let character = "character"
+        static let episodes = "episode?page="
+        static let imgSettings = "character/avatar/"
+        static let episode = "episode/"
+        
+    }
+    
     public struct Literals {
         static let charactersTitle = "Personajes"
         static let originLabel = "Origen"
