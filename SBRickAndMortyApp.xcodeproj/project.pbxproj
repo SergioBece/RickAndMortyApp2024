@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13E9B152BDBAEEA0095CC70 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9B142BDBAEEA0095CC70 /* SettingsView.swift */; };
+		F13E9B202BDBB2B20095CC70 /* SettingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9B1F2BDBB2B20095CC70 /* SettingTest.swift */; };
 		F148C3602BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148C35F2BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift */; };
 		F148C3622BDA6E2500C0BD5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148C3612BDA6E2500C0BD5D /* ContentView.swift */; };
 		F148C3642BDA6E2700C0BD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F148C3632BDA6E2700C0BD5D /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F13E9B142BDBAEEA0095CC70 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F13E9B1F2BDBB2B20095CC70 /* SettingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTest.swift; sourceTree = "<group>"; };
 		F148C35C2BDA6E2500C0BD5D /* SBRickAndMortyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBRickAndMortyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F148C35F2BDA6E2500C0BD5D /* SBRickAndMortyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBRickAndMortyAppApp.swift; sourceTree = "<group>"; };
 		F148C3612BDA6E2500C0BD5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F13E9B132BDBAE920095CC70 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F13E9B142BDBAEEA0095CC70 /* SettingsView.swift */,
+				F13E9B1F2BDBB2B20095CC70 /* SettingTest.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		F148C3532BDA6E2500C0BD5D = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +181,7 @@
 			children = (
 				F1525E622BDA7C15000B871B /* Characters */,
 				F1525E632BDA7C25000B871B /* Episodes */,
+				F13E9B132BDBAE920095CC70 /* Settings */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -449,10 +463,12 @@
 				F168414C2BDAA2D100F326FF /* DetailView.swift in Sources */,
 				F1525EA82BDA9E0F000B871B /* Constants.swift in Sources */,
 				F1525E822BDA8EB6000B871B /* CharacterViewModel.swift in Sources */,
+				F13E9B202BDBB2B20095CC70 /* SettingTest.swift in Sources */,
 				F188BF0E2BDBA397005F969D /* NetworkManager.swift in Sources */,
 				F1A590802BDAA8E400CD5564 /* EpisodesView.swift in Sources */,
 				F1525E722BDA7EEC000B871B /* EpisodeModel.swift in Sources */,
 				F16841582BDAA3EE00F326FF /* TitleText.swift in Sources */,
+				F13E9B152BDBAEEA0095CC70 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
