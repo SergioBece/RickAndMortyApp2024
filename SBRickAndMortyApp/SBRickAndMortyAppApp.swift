@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SBRickAndMortyAppApp: App {
+    @State var darkMode: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar(darkMode: $darkMode)
+                .preferredColorScheme(darkMode ? .dark : .light)
         }
     }
 }

@@ -16,7 +16,7 @@ enum DefinedError: String, Error {
     case Unknown = "Unknown error"
 }
 
-final class ManagerConnections: ObservableObject {
+public class NetworkManager: ObservableObject {
     
     @Published var dataCharacter: DataCharacter = DataCharacter(info: Info(count: 0, pages: 0))
     @Published var characters: [CharacterWithEpisode] = []
